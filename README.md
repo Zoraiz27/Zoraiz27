@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @Zoraiz27
+- 👋 Hi, I’m Muhammad Zoraiz Shahid
 - 👀 I’m interested in AI
 - 🌱 I’m currently learning Python
 - 💞️ I’m looking to collaborate on my first project
