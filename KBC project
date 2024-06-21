@@ -1,0 +1,53 @@
+print("What is capital of Qatar?")
+option1=["A.Doha", "B.Islamabad", "C.Delhi", "D.Nagasaki"]
+print(option1)
+Q1=input()
+if(Q1=="Doha"):
+    price1=200000
+    print("Correct Answer. You won 2 lac")
+else:
+    print("Wrong Answer")
+print("Which currency used in England?")
+option2=["A.Dollar", "B.Dinar", "C.Pound sterling", "D.Rupees"]
+print(option2)
+Q2=input()
+if(Q2=="Pound sterling"):
+    price2=300000
+    print("Correct Answer. You won 3 lac")
+else:
+    print("Wrong Answer")
+print("Fourth state of matter?")
+option3=["A.Solid", "B.Plasma", "C.Gas", "D.Liquid"]
+print(option3)
+Q3=input()
+if(Q3=="Plasma"):
+    price3=400000
+    print("Correct Answer. You won 4 lac")
+else:
+    print("Wrong Answer")
+print("Who invented first computer?")
+option4=["A.ENIAC ", "B.Micral N", "C.Isaac Newton", "D.Charles Babbage"]
+print(option4)
+Q4=input()
+if(Q4=="Charles Babbage"):
+    price4=500000
+    print("Correct Answer. You won 5 lac")
+else:
+    print("Wrong Answer")
+print("Who discover gravity?")
+option5=["A.Isaac Newton", "B.Albert Einstein", "C.Marie Curie", "D.Aristotle"]
+print(option5)
+Q5=input()
+if(Q5=="Isaac Newton"):
+    price5=600000
+    print("Correct Answer. You won 6 lac")
+else:
+    print("Wrong Answer")
+Q =Q1,Q2,Q3,Q4,Q5
+match Q:
+    case 1:
+        if(Q1=="Correct" and Q2=="Correct" and Q3=="Correct" and Q4=="Correct" and Q5=="Correct"):
+            total_price = price1+price2+price3+price4+price5
+            print(total_price)
+            print("Congraulation, You win 20 lac")
+#(Match case are not run.Need help in it.)
